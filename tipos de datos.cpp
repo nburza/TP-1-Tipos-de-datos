@@ -1,5 +1,9 @@
+/*NICOLAS BURZA
+19042015
+TIPOS DE DATOS
+*/
+
 #include <iostream>
-#include <stdlib.h>
 
 int num = 3;
 int num2 = 4;
