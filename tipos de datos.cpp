@@ -1,24 +1,38 @@
-/*NICOLAS BURZA
-19042015
+/*NICOLÁS BURZA
+23042015
 TIPOS DE DATOS
 */
 
 #include <iostream>
-
-int num = 3;
-int num2 = 4;
-bool suma = num + num2 == 7;
-char letra = 'n';
-char* cadena = "icolas";
-double num3 = 70872057.68;
-double num4 = 657335.62;
-double resta = num3 - num4;
-
 using namespace std;
 
-int main()
-{
-	cout << suma << "\n";
-	cout << resta << "\n";
-	cout << letra << cadena << "\n" << endl;
+int a;
+int b;
+double c;
+double d;
+char e;
+char f;
+string g;
+
+int main() {
+	cout << "Ingrese un numero entero: ";
+	cin >> a;
+	cout << "Ingrese otro numero entero: ";
+	cin >> b;
+	cout << "Resultado de la suma: " << a + b << "\n";
+	cout << "Inserte un numero real: ";
+	cin >> c;
+	cout << "Inserte otro numero real: ";
+	cin >> d;
+	cout << "Resultado de la resta: "<< c-d << "\n";
+	cout << "Inserte un caracter: ";
+	cin >> f;
+	cout <<"Inserte otro caracter: ";
+	cin >> e;
+	bool h= a<b or c>d;
+	bool j= ((a+b)*(c-d)>200) and f==e;
+	cout << h <<" "<< j << "\n";
+	cout << "Inserte un string: ";
+	cin >> g;
+	cout << "Tamaño de string: "<< g.size();	
 }
